@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: tandin-deploy
   name: tandin-deploy
 spec:
   replicas: 2
@@ -15,5 +15,5 @@ spec:
         app: tandin-deploy
     spec:
       containers:
-      - image: tandin18/takin:13
+      - image: tandin18/takin:latest
         name: pet
