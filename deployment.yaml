@@ -15,5 +15,5 @@ spec:
         app: tandin-deploy
     spec:
       containers:
-      - image: tandin18/takin:37
+      - image: tandin18/takin:38
         name: pet
